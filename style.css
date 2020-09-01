@@ -1,27 +1,25 @@
 body {
-  background-color: black;
-  margin: 0px
-}
-.wordart {
+  background-color: #0a0a0a;
+  margin: 0px;
+  color: white;
   font-family: Arial, sans-serif;
-  font-size: 4em;
-  font-weight: bold;
-  position: relative;
-  z-index: 1;
-  display: inline-block;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
-.wordart.italic-outline {
+/* wordart */
+
+.header {
     transform: scale(1, 1.3);
     -webkit-transform: scale(1, 1.3);
     -moz-transform: scale(1, 1.3);
     -o-transform: scale(1, 1.3);
     -ms-transform: scale(1, 1.3);
+	background-color: #000000;
+	padding: 20px;
+	color: white;
+	font-size: 60px;
 }
 
-.wordart.italic-outline .text {
+.header .text {
     letter-spacing: -0.01em;
     font-family: Arial, sans-serif;
     font-weight: bold;
